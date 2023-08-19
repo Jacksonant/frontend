@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Barriecito&family=Bricolage+Grotesque:opsz,wght@10..48,200;10..48,300&family=Changa&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body,
+input,
+button {
+  font-family: Changa !important;
+}
+
+body {
+  background: #e6dada; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #274046,
+    #e6dada
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #274046,
+    #e6dada
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
